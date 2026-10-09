@@ -4,10 +4,10 @@ Code for the experiments of *Stochastic Lanczos Quadrature for Computational
 Uncertainty in Linear Algebra* (Fifen, Karambal, Hennig).
 
 | script | reproduces | hardware |
-|---|---|---|---|
+|---|---|---|
 | `exp_consistency.py` | P-SLQ bias and variance | CPU |
 | `exp_reprojection_matched.py` | reprojection at matched targets | CPU |
-| `exp_trace.py` | trace estimation at matched budgets | CPU | ~20 min |
+| `exp_trace.py` | trace estimation at matched budgets | CPU |
 | `calibration_experiment.py` | calibration of the belief: figure and table | CPU | 
 | `fashionmnist_subspace_kl.py` | Laplace approximation, FashionMNIST | GPU | 
 | `cifar10_cnn_kl.py` | Laplace approximation, CIFAR-10 | GPU (40 GB) | 
